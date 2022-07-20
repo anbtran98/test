@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head><title>HTML & CSS 5</title></head>
+	<body>
+		<h1>HTML & CSS: Design and build websites</h1>
+		<h2>NOTES - Chapter 5: IMAGE</h2>
+		<hr>
+		<h2>Objectives</h2>
+		<p>
+			This chapter covers:
+			<b>
+				<ol>
+					<li>Add images to your html website</li>
+					<li>Pick image format to use</li>
+					<li>Show the image at the rigth size</li>
+					<li>Optimize an image for loading speed of a website</li>
+				</ol>
+			</b>
+		</p>
+		<hr>
+		<h2>Introduction</h2>
+		<p>
+			"A picture can say a thousand words"<br>
+			<h3>Choose images:</h3>
+			<ul>
+				<li>Use images to set the tone for the website</li>
+				<li>Use your own photos.</li>
+				<ul>
+					<li>If your don't have one, use stock images.</li>
+					<ul>
+						<li><b>Stock Images</b>: Images you pay to use(from a website).</li>
+						<li>Refer to pg. 97 for list of website to buy stock images.</li>
+						<li><b>All images are subject to copyright.</b></li>
+					</ul>
+				</ul>
+				<li>If you have several images, put them in simple, consistent background.</li>
+				<li><b>Images should:</b></li>
+				<ol>
+					<li>Be relevant</li>
+					<li>Convey information</li>
+					<li>Convey the mood</li>
+					<li>Be recognisable</li>
+					<li>Fit the  color pallete</li>
+				</ol>
+				<li><b>Online gallery from the book (refer to pg.97)</b></li>
+			</ul>
+			<h3>Storring images:</h3>
+			<ul>
+				<li>Create folders for images used on website.</li>
+				<ul>
+					<li>Create sub-folder for different types of images</li>
+					ex: logo, gif, background, foreground, etc...
+				</ul>
+			</ul>
+			<h3>Adding images:</h3>
+			<ul>
+				<li>Use &lt;img&gt; to add images.</li>
+				<ul>
+					<li>Empty element (no closing tag)</li>
+					<li><b>Must carry 2 main attributes:</b></li>
+					<ol>
+						<li><b>src</b> - tell the location of the image (path to get to the image)</li>
+						ex: src = "images/name.jpg"
+						<li><b>alt</b> - provide text description of image when you can't see it <b>(should give an accurate description of the image for those that are visually impared; use with screen reader)</b>.</li>
+						If image is used for aesthetics, alt will still be used but the quotes is empty<br>
+						ex: alt = "test image"
+					</ol>
+					<img src= "send_to_onedrive/pic3.JPG" alt= "test picture number 3" height= "300" width= "450">
+				</ul>
+				<li><b>title</b> - Provide additional information about the image</li>
+				Most browser display the text in tooltip when hover mouse over the image.<br>
+				ex: title= "testing title for image"
+				<li><b>height</b> - Height of the image in pixels</li>
+				<li><b>width</b> - width fo the image in pixels</li>
+				<li>Images take longer to load than html codes.</li>
+				<ul>
+					<li>It's a good practice to specify the size of the image.</li>
+					This helps the browser to render the page and leave a little space for the image to load (loading speed optimization).<br>
+					<b>Common practice:</b> Size of image is specified with CSS.
+				</ul>
+				<li>Example with all attributes mentioned above:</li>
+				&lt;img src= "images/name.jpg" alt= "test image" title= "this is a test only; nothing special" height= "100" width= "100"&gt;
+			</ul>
+			<h3>Location of image:</h3>
+			The location of image rag in the code will affect how it is display:<br>
+			There are 3 ways for the image to be displayed:
+			<ol>
+				<li>Before paragraph</li>
+				<li>Inside the start of a paragraph</li>
+				<li>In the middle of a paragraph</li>
+			</ol>
+			Refer to the book for the visual representation.
+
+		</p>
+	</body>
+</html>
+	
